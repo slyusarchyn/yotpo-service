@@ -19,22 +19,25 @@ interface YotpoContract
     public function setUToken(string $uToken): void;
 
     /**
-     * @return array|object|string
+     * @return object|null
      */
     public function getOauthToken();
 
     /**
      * @param array $purchaseHash
-     * @return array|object|string
+     * @return string|null
      */
     public function createPurchase(array $purchaseHash);
 
     /**
      * @param array $purchasesHash
-     * @return array|object|string
+     * @return string|null
      */
     public function createPurchases(array $purchasesHash);
 
-
+    /**
+     * @param array $requestHash
+     * @return string|null
+     */
     public function getPurchases(array $requestHash);
 }
