@@ -1,7 +1,7 @@
 # Laravel YotpoService Package
 
 [![PHP](https://img.shields.io/github/tag/slyusarchyn/yotpo-service.svg)](https://github.com/slyusarchyn/yotpo-service)
-[![Downloads](https://img.shields.io/github/downloads/slyusarchyn/yotpo-service/total.svg)](https://github.com/slyusarchyn/yotpo-service)
+[![Downloads](https://img.shields.io/packagist/dt/slyusarchyn/yotpo-service.svg)](https://packagist.org/packages/slyusarchyn/yotpo-service)
 [![Stars](https://img.shields.io/github/stars/slyusarchyn/yotpo-service.svg)](https://github.com/slyusarchyn/yotpo-service)
 
 YOTPO API
